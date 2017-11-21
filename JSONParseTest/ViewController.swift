@@ -9,8 +9,8 @@
 import UIKit
 
 struct Values: Decodable {
-    let base: String
-    let date: String
+    let base: String?
+    let date: String?
     let rates: [Rates]
 }
 struct Rates: Decodable {
