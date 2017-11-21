@@ -11,11 +11,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var paraBirimi: UITextField!
-    @IBOutlet weak var sonuc: UITextField!
-    @IBAction func deger(_ sender: Any) {
-        
-    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -44,11 +40,7 @@ class ViewController: UIViewController {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
-    
+
     
 }
 
